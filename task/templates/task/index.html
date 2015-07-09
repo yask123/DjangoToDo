@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1> Enter the task </h1>	
+<form action="/" method="post" >{% csrf_token %}
+<input name="task" type="text">
+<button type="submit"> Add Task</button>
+</form>
+<H2>My Tasks</H2>
+{% for each in tasks %}
+<li> {{ each.text }} </li>
+{% endfor %}
+
+</body>
+</html>
