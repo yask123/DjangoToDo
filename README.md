@@ -1,4 +1,4 @@
-# DjangoTodDo
+# DjangoToDo
 A simple ToDo list web application written in Python for Django Training (BVCOE, New Delhi) 2015 conducted by Yask Srivastava
 
 ### Instructions to run the app
